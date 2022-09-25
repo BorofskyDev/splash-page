@@ -1,5 +1,6 @@
 import '../styles/style.css';
 import '../styles/navbar.css';
+import '../styles/hero.css';
 
 /*********************************/
 /*********    NAVBAR    **********/
@@ -18,3 +19,4 @@ function toggleNav() {
 burger.addEventListener('click', () => {
     toggleNav()
 })
+
